@@ -67,8 +67,8 @@ __date__= 'Nov 15, 2017'
 import re
 import logging
 
-from ats import aetest
-from ats.log.utils import banner
+from pyats import aetest
+from pyats.log.utils import banner
 
 #
 # create a logger for this testscript
@@ -359,7 +359,7 @@ if __name__ == '__main__':
 
     # local imports
     import argparse
-    from ats.topology import loader
+    from pyats.topology import loader
 
     parser = argparse.ArgumentParser(description = "standalone parser")
     parser.add_argument('--testbed', dest = 'testbed',
